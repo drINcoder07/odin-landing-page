@@ -1,0 +1,77 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Background Colors */
+.main, .footer {
+  background-color: #1f2937;
+}
+
+
+/* Main Section */
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 22px 200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+.link ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
